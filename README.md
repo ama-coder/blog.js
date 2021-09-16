@@ -1,2 +1,2 @@
 # The Blog.JS
-## created by AmACoder
+ created by AmACoder
