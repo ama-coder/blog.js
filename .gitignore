@@ -2,5 +2,3 @@
 *.backup
 # test
 /test/*
-# git ignore
-.gitignore
