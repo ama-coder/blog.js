@@ -1,16 +1,14 @@
 // blog.js created by ama
 //copy right : GPL-3
 
-const xhttp = new XMLHttpRequest();
-
+var xhttp = new XMLHttpRequest();
 
 var getPostsInfo = (path) => {
 
-    xhttp.onload = function() {
-    return JSON.parse(this.responseText);
-    }
-    xhttp.open("get",path,true);
-    xhttp.send();
+    xhttp.open('GET', path, false);
+    xhttp.send(null);
+    return JSON.parse(xhttp.responseText);
+
 }
 
 var getPost = (postname,postsInfo) => {
