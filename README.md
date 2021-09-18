@@ -10,6 +10,7 @@ getPost()
 
 #  TODO
 
-[ ] fix getpostsinfo func (9/18/2021 - 9/19/2021)
+[x] ajax func 9/18/2021
+[ ] add postsinfo func(class)
 [ ] fix getpostes func (9/19/2021 - 9/20/2021)
 
