@@ -20,7 +20,7 @@ getPost()
 
 - [x] ajax func (9/18/2021)
 - [X] add getPostsinfo func (9/18/2021)
-- [x] fix getpostes func (9/19/2021)
+- [x] fix getposts func (9/19/2021)
 - [ ] add gencontent func
 - [ ] add list
 - [ ] config NPM project
