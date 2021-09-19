@@ -16,9 +16,8 @@ var getPostsInfo = (path) => {
 
     var info = {
 
-        'count' : data.count,
-        'path' : data.path,
-        'posts' : data.posts
+        'count' :Object.keys(data).length,
+        'posts' : data
 
     };
     return info;
@@ -27,16 +26,6 @@ var getPostsInfo = (path) => {
 
 var getPost = (postname,postsInfo) => {
 
-    var path;
-
-    for (let i = 0;i<=postsInfo.count;i++) {
-
-        if (postsInfo.posts[i] == postname)
-
-            path = postsInfo.path[i];
-            break;
-
-    }
-    return getData(path);
+    return getData(postsInfo.posts[postname]);
 
 }
