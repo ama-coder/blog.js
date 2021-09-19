@@ -17,13 +17,13 @@ getPost()
 
 ## TODO
 
-[x] ajax func 9/18/2021
-[X] add getPostsinfo func 9/18/2021
-[ ] fix getpostes func
-[ ] add markdawn generator
-[ ] add gencontent func
-[ ] add list
-[ ] add date time handling
-[ ] add blog.js-ui
-[ ] add LaTeX generator
-[ ] add error hanfling
+- [x] ajax func 9/18/2021
+- [X] add getPostsinfo func 9/18/2021
+- [ ] fix getpostes func
+- [ ] add markdawn generator
+- [ ] add gencontent func
+- [ ] add list
+- [ ] add date time handling
+- [ ] add blog.js-ui
+- [ ] add LaTeX generator
+- [ ] add error hanfling
